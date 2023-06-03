@@ -4,7 +4,7 @@ const port = 3250
 // const port = 3251
 
 app.get('/', (req, res) => {
-  res.send('Hola Codigo Facilito')
+  res.send('Hola mundo')
 })
 
 app.get('/hello', (req, res) => {
